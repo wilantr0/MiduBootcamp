@@ -1,15 +1,11 @@
 import './App.css';
-import Mensaje from './Mensaje';
+import Product from './Product'
 
 
 function App() {
   return (
     <div className="App">
-      <div className="chat">
-        <Mensaje msg={"Hola a tol mundo"} />
-        <Mensaje msg={"Como estan los maquinas"} />
-        <Mensaje msg={"Todo bien?"} />
-      </div>
+      <Product size="50px" />
     </div>
   );
 }
